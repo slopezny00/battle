@@ -1,0 +1,50 @@
+/* Battle Game Project 10/27/23 */
+
+body {
+    background-image: url(place.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#262221;
+    background-attachment: fixed;
+    font-family: 'Sometype Mono', monospace;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    color:chartreuse;
+    font-size: 4em;
+    text-shadow:grey 2px 4px 2px;
+}
+
+div#button {
+    background-color:darkgray;
+    font-size: 2.6em;
+    font-family: 'Sometype Mono', monospace;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    box-shadow:darkred 1px 1px 3px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+div#button:hover {
+    background-color:palegreen;
+    color: black;
+}
+
+h2#victory {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2.7em;
+    color:deeppink;
+    text-shadow:gray 3px 3px 1px;
+}
+
+h2#defeat {
+    font-family: 'Nosifer', cursive;
+    font-size: 2.7em;
+    color:red;
+    text-shadow: gray 2px 2px 2px, black 3px 3px 1px;
+}
